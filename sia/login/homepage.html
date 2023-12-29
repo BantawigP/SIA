@@ -4,26 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>StateMaster</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="navbar">
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="Inventory.html">Inventory</a></li>
-                <li><a href="login.html">Log out</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="product-display">
-        <h2>Welcome to Our Inventory Management System</h2>
-        <p>Use our simple system to manage your inventory effectively. Organize your business's operations, process orders, and maintain product inventory.</p>
-    </section>
-
-    <footer>
-        <p>&copy; StateMaster</p>
-    </footer>
-</body>
+      <img src="logo.png"" class="logo">
+    </header>    
+    
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav hidden-xs">
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="homepage.html">Dashboard</a></li>
+            <li><a href="InventorySystem.html">Inventory System</a></li>
+            <li><a href="Settings.html">Settings</a></li>
+            <li><a href="login.html">Logout</a></li>
+          </ul><br>
+          <p>&copy; StateMaster</p>
+        </div>
+        <br>
+        
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="well">
+                <h4>Current Budget</h4>
+                <p>₱0.00</p> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4>Expenses</h4>
+                <p>₱0.00</p> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4>Income</h4>
+                <p>₱0.00</p> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4>Profit</h4>
+                <p>₱0.00</p> 
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    </body>
 </html>
