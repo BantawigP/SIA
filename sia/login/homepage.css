@@ -1,38 +1,38 @@
 .content{
-    display: flex;
- }
- 
+  display: flex;
+}
+
 .sidenav {
-   background-color: #010386;
-   width: 400px !important;
-   height: 894px;
- }
+ background-color: #010386;
+ width: 400px !important;
+ height: 894px;
+}
+.logo{
+height: 60px;
+width: 130px;
+}
 
 .sidenav p {
-  color: white;
-  margin-top: 650px;
+color: white;
+margin-top: 650px;
 }
 
 header {
-  background-color: #000143;
-  padding: 10px 0;
-}
-.logo{
-  height: 60px;
-  width: 130px;
+background-color: #000143;
+padding: 10px 0;
 }
 
 header h2{
-  color: white;
-  font-weight: bold;
-  margin-left: 20px;
+color: white;
+font-weight: bold;
+margin-left: 20px;
 }
 
 .nav-pills li a{
-  color: white;
-  font-size: 20px;
+color: white;
+font-size: 20px;
 }
 
 .well{
-  margin-top: 20px;
+margin-top: 20px;
 }
