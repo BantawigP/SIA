@@ -7,7 +7,7 @@
                 return false;
             }
             else if (username === "admin" || password === "password") {
-                alert("Username and Password fields cannot be empty");
+               
                 return true;
             }
             else{
